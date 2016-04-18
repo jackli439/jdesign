@@ -1,0 +1,16 @@
+<div class="homepage-container" ng-controller="View1Ctrl as vm">
+    <div class="homepage-img-container">
+        <img width=500 src="/app/imgs/homepage2.png">
+        <a href="#/view4"><div class="homepage-stat-btn"></div></a>
+        <a href="#/view5"><div class="homepage-event-btn"></div></a>   
+        <div class="homepage-breakdown-btn" ng-click="vm.breakdownOpen = !vm.breakdownOpen"></div>
+
+    </div>
+    <div class="breakdown" ng-class="{'breakdown-ani' : vm.breakdownOpen}">
+        <div class="homepage-img-container">
+            <img width=500 src="/app/imgs/breakdown3.png">
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,67 @@
+.homepage-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage-img-container {
+    position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    right:0;
+    top: 100px;
+    z-index: 5;
+}
+
+.homepage-stat-btn{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    z-index: 10;
+    top: 23px;
+    left: 31px;
+    cursor: pointer;
+
+
+}
+.homepage-event-btn{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    z-index: 10;
+    top: 23px;
+    left: 442px;
+    cursor: pointer;
+}
+
+.homepage-breakdown-btn{
+    position: absolute;
+    width: 496px;
+    height: 75px;
+    z-index: 10;
+    top: 327px;
+    left: 2px;
+    cursor: pointer;
+}
+
+.breakdown {
+    position: relative;
+    height: 0;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    right:0;
+    top: -5px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    overflow: hidden;
+}
+
+.breakdown-ani {
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    height: 1000px;
+}
